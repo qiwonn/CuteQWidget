@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="CuteToggle">
+		<attr name="textOn" format="string"/>
+		<attr name="textOff" format="string"/>
+		<attr name="colorOff" format="color"/>
+		<attr name="colorOn" format="color"/>
+		<attr name="colorThumb" format="color"/>
+		<attr name="colorTextOn" format="color"/>
+		<attr name="colorTextOff" format="color"/>
+		<attr name="colorBorder" format="color"/>
+		<attr name="colorDisabled" format="color"/>
+		<attr name="on" format="boolean"/>
+		<attr name="android:textSize"/>
+		<attr name="android:enabled"/>
+	</declare-styleable>
+	<declare-styleable name="PayPsdInputView">
+		<attr name="maxCount" format="integer"/>
+		<attr name="circleColor" format="color"/>
+		<attr name="bottomLineColor" format="color"/>
+		<attr name="radius" format="dimension"/>
+		<attr name="divideLineWidth" format="dimension"/>
+		<attr name="divideLineColor" format="color"/>
+		<attr name="rectAngle" format="dimension"/>
+		<attr name="focusedColor" format="color"/>
+		<attr name="psdType" format="enum">
+			<enum name="ipAddress" value="0"/>
+			<enum name="weChat" value="1"/>
+			<enum name="bottomLine" value="2"/>
+		</attr>
+	</declare-styleable>
+</resources>
